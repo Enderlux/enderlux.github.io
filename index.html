@@ -1,5 +1,19 @@
 <!doctype html>
 
+<!--
+oh look at you, looking for hidden messages in the page source. have a cat. :)
+ ,_     _
+ |\\_,-~/
+ / _  _ |    ,--.
+(  o  o )   / ,-'
+ \  _w_/-._( (
+ /         `. \
+|         _  \ |
+ \ \ ,  /      |
+  || |-_\__   /
+ ((_/`(____,-'
+-->
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,18 +21,53 @@
   <style>
 	body {
 		font-family: 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+		background: url('bg-noise.png');
+		color: #ddd;
+	}
+	#box {
+		margin-top: 250px;
+		text-align: center;
+	}
+	#heart {
+		height: 1.2em;
+		vertical-align:bottom;
+	}
+	a {
+		text-decoration: none;
+	}
+	.thumb {
+		height: 65px;
 	}
   </style>
 </head>
 
 <body>
-	<h1>Hi</h1>
-	<p>
-		Not much here at the moment.
-	</p>
-	<p>
-		<a href="https://steamcommunity.com/id/enderlux/">Visit me on Steam</a><br>
-		<a href="https://www.twitch.tv/enderlux1">Twitch Channel</a>
-	</p>
+	<div id="box">
+		<h1>Hi<img src="heart.png" id="heart" /></h1> 
+		<p>
+			Not much here at the moment.
+			<br>
+			<br>
+			You can find me here:
+		</p>
+		<p>
+			<br>
+			<a href="https://steamcommunity.com/id/enderlux/" title="Visit me on Steam">
+				<img src="steam.png" class="thumb" />
+			</a>
+			<a href="https://www.twitch.tv/enderlux1" title="Twitch Channel">
+				<img src="twitch.png" class="thumb" />
+			</a>
+			<a href="https://mixer.com/enderlux" title="Mixer Channel">
+				<img src="mixer.png" class="thumb" />
+			</a>
+			<a href="https://github.com/enderlux" title="Github">
+				<img src="github.png" class="thumb" />
+			</a>
+			<a href="https://enderlux.itch.io/" title="itch.io">
+				<img src="itch.png" class="thumb" />
+			</a>
+		</p>
+	</div>
 </body>
 </html>
